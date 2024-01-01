@@ -1,10 +1,10 @@
-.card {
-    margin: 10px 0 ;
+.team-section .card {
+  margin: 10px 0;
 }
-.card img{
-    width: 50%;
-    border: 1px solid rgb(0, 26, 255) ;
-    border-radius: 100%;
-    margin: auto ;
-    margin-top: 10px ;
+.team-section .card img {
+  width: 50%;
+  border: 1px solid rgb(0, 26, 255);
+  border-radius: 100%;
+  margin: auto;
+  margin-top: 10px;
 }

@@ -2,8 +2,8 @@
   {
     "user_id": 21641641,
     "name": "Atikur Rahman",
-    "image": "image-url",
-    "position": "chirman",
+    "image": "image-url.png",
+    "position": "Chirman",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
     "birth-day": "",
@@ -13,8 +13,8 @@
   {
     "user_id": 40003245,
     "name": "Sherajul Islam",
-    "image": "image-url",
-    "position": "mentor",
+    "image": "image-url.png",
+    "position": "Mentor",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
     "birth-day": "",
@@ -24,8 +24,8 @@
   {
     "user_id": 18073313,
     "name": "Abdullah Al Mamun",
-    "image": "image-url",
-    "position": "general secretary",
+    "image": "image-url.png",
+    "position": "General secretary",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
     "birth-day": "",
@@ -35,7 +35,7 @@
   {
     "user_id": 26326589,
     "name": "Sadikur Rahman",
-    "image": "image-url",
+    "image": "image-url.png",
     "position": "Organizing Secretary",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
@@ -46,7 +46,7 @@
   {
     "user_id": 48217866,
     "name": "Naeen Ahmed",
-    "image": "image-url",
+    "image": "image-url.png",
     "position": "Financial Secretary",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
@@ -57,7 +57,7 @@
   {
     "user_id": 38677965,
     "name": "Ismail Hussain",
-    "image": "image-url",
+    "image": "image-url.png",
     "position": "Financial Secretary",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
@@ -68,7 +68,7 @@
   {
     "user_id": 52971459,
     "name": "Fokhrul Islam",
-    "image": "image-url",
+    "image": "fokhrul.png",
     "position": "Publicity Editor",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
@@ -79,7 +79,7 @@
   {
     "user_id": 78526416,
     "name": "Kawser Ahmed",
-    "image": "image-url",
+    "image": "image-url.png",
     "position": "Assistant Publicity Editor",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
@@ -90,7 +90,7 @@
   {
     "user_id": 22002226,
     "name": "Emon Ahmed",
-    "image": "image-url",
+    "image": "image-url.png",
     "position": "Religion Editor",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
@@ -101,7 +101,7 @@
   {
     "user_id": 57227664,
     "name": "Ibrahim Ahmed",
-    "image": "image-url",
+    "image": "image-url.png",
     "position": "Member",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
@@ -112,7 +112,7 @@
   {
     "user_id": 26470765,
     "name": "Fahim Ahmed",
-    "image": "image-url",
+    "image": "image-url.png",
     "position": "Member",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
@@ -123,7 +123,7 @@
   {
     "user_id": 71092521,
     "name": "Masum Ahmed",
-    "image": "image-url",
+    "image": "image-url.png",
     "position": "Member",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
@@ -134,7 +134,7 @@
   {
     "user_id": 59989381,
     "name": "Mohammad Ali",
-    "image": "image-url",
+    "image": "image-url.png",
     "position": "Member",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
