@@ -42,7 +42,7 @@
       </div>
     </nav>
 
-    <main>
+    <main data-bs-spy="scroll" data-bs-smooth-scroll="true" tabindex="0">
       <!-- hero Section  -->
       <section id="home" class="hero-section py-5">
         <div class="container pt-5">
@@ -73,119 +73,48 @@
       <section id="team" class="team-section py-5 text-center">
         <div class="container">
           <h1>Team Members</h1>
-          <div class="row">
-            <div class="col-xl-3 col-md-4 col-sm-6">
-              <div class="card">
-                <img
+          <div id="membersInfo" class="row">
+            <script>
+              // Fetch the members data from the JSON file
+              fetch("assets/documents/members.json")
+                .then((response) => {
+                  if (!response.ok) {
+                    throw new Error("Network response was not ok");
+                  }
+                  return response.json();
+                })
+                .then((members) => {
+                  // Access each member's name and display them in the HTML
+                  const membersListElement =
+                    document.getElementById("membersList");
+                  const membersInfo = document.querySelector("#membersInfo");
+                  // Loop through the array of members
+                  members.forEach((user) => {
+                    // HTML Contents or Elements
+                    const topHtml = `<div class="col-xl-3 col-md-4 col-sm-6">
+              <div class="card">`;
+                    const img = `<img
                   src="https://rcmi.fiu.edu/wp-content/uploads/sites/30/2018/02/no_user-768x768.png"
                   class="card-img-top"
-                  alt="..."
-                />
+                  alt="${user.name}"
+                />`;
+                    const card = `
                 <div class="card-body">
-                  <h5 class="card-title">Fokhrul Islam</h5>
-                  <p class="card-text">President of the team</p>
-                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-4 col-sm-6">
-              <div class="card">
-                <img
-                  src="https://rcmi.fiu.edu/wp-content/uploads/sites/30/2018/02/no_user-768x768.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Fokhrul Islam</h5>
-                  <p class="card-text">President of the team</p>
-                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-4 col-sm-6">
-              <div class="card">
-                <img
-                  src="https://rcmi.fiu.edu/wp-content/uploads/sites/30/2018/02/no_user-768x768.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Fokhrul Islam</h5>
-                  <p class="card-text">President of the team</p>
-                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-4 col-sm-6">
-              <div class="card">
-                <img
-                  src="https://rcmi.fiu.edu/wp-content/uploads/sites/30/2018/02/no_user-768x768.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Fokhrul Islam</h5>
-                  <p class="card-text">President of the team</p>
-                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-4 col-sm-6">
-              <div class="card">
-                <img
-                  src="https://rcmi.fiu.edu/wp-content/uploads/sites/30/2018/02/no_user-768x768.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Fokhrul Islam</h5>
-                  <p class="card-text">President of the team</p>
-                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-4 col-sm-6">
-              <div class="card">
-                <img
-                  src="https://rcmi.fiu.edu/wp-content/uploads/sites/30/2018/02/no_user-768x768.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Fokhrul Islam</h5>
-                  <p class="card-text">President of the team</p>
-                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-4 col-sm-6">
-              <div class="card">
-                <img
-                  src="https://rcmi.fiu.edu/wp-content/uploads/sites/30/2018/02/no_user-768x768.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Fokhrul Islam</h5>
-                  <p class="card-text">President of the team</p>
-                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-4 col-sm-6">
-              <div class="card">
-                <img
-                  src="https://rcmi.fiu.edu/wp-content/uploads/sites/30/2018/02/no_user-768x768.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Fokhrul Islam</h5>
-                  <p class="card-text">President of the team</p>
-                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                </div>
-              </div>
-            </div>
+                  <h5 class="card-title">${user.name}</h5>
+                  <p class="card-text">${user.position}</p>
+                  <a href="#" class="btn btn-primary">More Info</a>
+                </div>`;
+                    const bottomHtml = `</div>
+            </div>`;
+                    membersInfo.innerHTML += `
+                    ${topHtml} ${img} ${card} ${bottomHtml}
+              `;
+                  });
+                })
+                .catch((error) => {
+                  console.error("Error fetching the members data:", error);
+                });
+            </script>
           </div>
         </div>
       </section>
@@ -197,3 +126,5 @@
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
+
+<!-- 6 August 2021 -->
