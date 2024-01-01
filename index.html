@@ -72,12 +72,48 @@
       <!-- Team members  -->
       <section id="team" class="team-section py-5 text-center">
         <div class="container">
-          <h1>Team Members</h1>
-          <div id="membersInfo" class="row">
+          <h1 class="pt-5"><span class="px-5 border-bottom">Team Members</span></h1>
+          <div id="membersInfo" class="row pt-5">
             <!-- Members Info -->
           </div>
         </div>
       </section>
+      <!-- User Modal  -->
+      <!-- Modal container -->
+      <div id="modal" class="modal" tabindex="-1">
+        <!-- Modal content -->
+        <div>
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5">Members Details</h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  onclick="closeMemberModal()"
+                ></button>
+              </div>
+              <div class="modal-body text-center">
+                <img class="memberImg" src="assets/img/fokhrul.png" alt="" />
+                <h2 class="memberName"></h2>
+                <h4 class="memberPosition"></h4>
+                <h5 class="memberPhone"></h5>
+                <h5 class="memberNationality">Nationality:</h5>
+                <h5 class="memberLiving">Living:</h5>
+                
+              </div>
+              <div class="modal-footer">
+                <!-- Close button for the modal -->
+                <button class="btn btn-primary" onclick="closeMemberModal()">
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer  -->
       <footer class="text-center py-2 border-top">
         <p class="pt-3">All Reserved &copy; Awake Youth Association</p>
       </footer>
@@ -90,4 +126,3 @@
 </html>
 
 <!-- 6 August 2021 -->
-
