@@ -7,21 +7,33 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+img {
+  max-width: 100%;
+}
 .team-section .card {
   margin: 10px 0;
   border: 1px solid transparent;
   background-color: #004aa721;
   padding: 10px;
 }
-.team-section .card img {
+
+.team-section .card .img {
   width: 50%;
   border: 1px solid rgb(0, 26, 255);
   border-radius: 100%;
   margin: auto;
   margin-top: 20px;
   padding: 5px;
-}
 
+  overflow: hidden;
+}
+.team-section .card img {
+  border-radius: 100%;
+  transition: 0.2s ease;
+}
+.team-section .card .img:hover img {
+  transform: scale(1.1);
+}
 /* =============== Modal CSS ============== */
 #modal {
   background-color: rgba(0, 0, 0, 0.521);

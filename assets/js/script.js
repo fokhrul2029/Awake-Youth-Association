@@ -16,11 +16,13 @@ fetch("assets/documents/members.json")
         <div class="col-xl-3 col-md-4 col-sm-6">
         <div class="card">
             <input type="hidden" id="${user.user_id}">
-            <img
-            src="assets/img/${user.image}"
-            class="card-img-top"
-            alt="${user.name}"
-            />
+            <div class="img">
+                <img
+                src="assets/img/${user.image}"
+                class="card-img-top"
+                alt="${user.name}"
+                />
+            </div>
             <div class="card-body">
             <h5 class="card-title">${user.name}</h5>
             <p class="card-text">${user.position}</p>
