@@ -1,51 +1,148 @@
-/* 
-    // Google Font
-    // font-family: 'Poppins', sans-serif;
-*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
-
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
+
 img {
   max-width: 100%;
 }
-.team-section .card {
-  margin: 10px 0;
+
+.text-color {
+  color: rgb(0, 139, 211);
+}
+
+.bg-color {
+  background-color: rgb(0, 139, 211);
+}
+
+.btn-color {
+  background-color: rgb(0, 139, 211);
   border: 1px solid transparent;
-  background-color: #004aa721;
+  color: white;
+}
+
+.btn-color:hover {
+  color: rgb(0, 139, 211);
+  border: 1px solid rgb(0, 139, 211);
+  background-color: transparent;
+}
+
+#navbar .active {
+  color: rgb(0, 139, 211);
+}
+
+#logo {
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(0, 139, 211);
+}
+
+.navbar button {
+  border: 2px solid rgb(0, 139, 211);
+  transition: all 0.2s ease 0s;
+  outline: none;
+}
+
+.navbar button:hover {
+  background-color: rgb(0, 139, 211);
+  border: 2px solid transparent;
+}
+
+.navbar button:hover i {
+  color: white;
+}
+
+.navbar button i {
+  color: rgb(0, 139, 211);
+  font-size: 31px;
+}
+
+.navbar button:focus {
+  box-shadow: 0px 0px 0px;
+  outline: none;
+}
+
+#navbar ul li a {
+  font-weight: 600;
+}
+
+#navbar .fb-icon {
+  color: white;
+  padding: 5px 15px;
+  border: 2px solid transparent;
+  background-color: rgb(59, 89, 152);
+  border-radius: 10px;
+}
+
+#navbar .fb-icon:hover {
+  color: rgb(59, 89, 152);
+  border: 2px solid rgb(59, 89, 152);
+  background-color: transparent;
+}
+
+.team-section .card {
+  margin: 10px 0px;
+  border: 1px solid transparent;
+  background-color: rgba(0, 139, 211, 0);
   padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.46) 0px 0px 2px;
+  transition: all 0.2s ease 0s;
+}
+
+.team-section .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.336) 0 5px 10px 0px;
 }
 
 .team-section .card .img {
   width: 50%;
-  border: 1px solid rgb(0, 26, 255);
+  border: 1px solid rgb(0, 139, 211);
   border-radius: 100%;
-  margin: auto;
-  margin-top: 20px;
+  margin: 20px auto auto;
   padding: 5px;
-
   overflow: hidden;
 }
+
 .team-section .card img {
   border-radius: 100%;
-  transition: 0.2s ease;
+  transition: all 0.2s ease 0s;
 }
+
 .team-section .card .img:hover img {
   transform: scale(1.1);
 }
-/* =============== Modal CSS ============== */
-#modal {
-  background-color: rgba(0, 0, 0, 0.521);
-  transform-origin: top;
-  transition: 3s ease !important;
+
+footer a {
+  text-decoration: none;
 }
+
+#modal {
+  background-color: rgba(0, 0, 0, 0.52);
+  transform-origin: center top;
+  transition: all 3s ease 0s !important;
+}
+
 .modal-content {
-  transition: 1s ease;
-  transform-origin: top;
+  transition: all 1s ease 0s;
+  transform-origin: center top;
+}
+#modal .social-info {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  padding-top: 10px;
+}
+#modal .social-info a {
+  font-size: 25px;
+  color: rgb(0, 139, 211);
+}
+#modal .social-info a:hover {
+  font-size: 25px;
+  color: rgb(0, 113, 170);
 }
 #modal img {
   max-width: 200px;
   border-radius: 10px;
-  margin: 30px 0 20px 0;
+  margin: 30px 0px 20px;
+  background-color: transparent;
 }

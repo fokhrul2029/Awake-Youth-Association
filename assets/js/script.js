@@ -1,5 +1,6 @@
 // Fetch the members data from the JSON file
-fetch("assets/documents/members.json")
+const jsonFile = "assets/documents/members.json";
+fetch(jsonFile)
   .then((response) => {
     if (!response.ok) {
       throw new Error("Network response was not ok");
@@ -26,7 +27,7 @@ fetch("assets/documents/members.json")
             <div class="card-body">
             <h5 class="card-title">${user.name}</h5>
             <p class="card-text">${user.position}</p>
-            <button type="button" onclick="openMemberModal(${user.user_id})" class="btn btn-primary">More Info</button>
+            <button type="button" onclick="openMemberModal(${user.user_id})" class="btn btn-color">More Info</button>
             </div>
         </div>
         </div>`;
@@ -40,7 +41,7 @@ fetch("assets/documents/members.json")
 // Function to fetch user data from JSON file
 async function fetchUserData() {
   try {
-    const response = await fetch("assets/documents/members.json");
+    const response = await fetch(jsonFile);
     if (!response.ok) {
       throw new Error("Network response was not ok");
     }
@@ -54,7 +55,7 @@ async function fetchUserData() {
 // Function to fetch member data from JSON file
 async function fetchMemberData() {
   try {
-    const response = await fetch("assets/documents/members.json");
+    const response = await fetch(jsonFile);
     if (!response.ok) {
       throw new Error("Network response was not ok");
     }
@@ -90,7 +91,7 @@ async function openMemberModal(user_id) {
   const memberLiving = document.querySelector(".memberLiving");
 
   memberImg.src = `assets/img/${user.image}`;
-  memberName.innerHTML = ` <span class="border-bottom border-success text-success">${user.name}</span>`;
+  memberName.innerHTML = ` <span class="border-bottom border-info text-color">${user.name}</span>`;
   memberPosition.innerHTML = `Position: ${user.position}`;
   memberPhone.textContent = `Phone: ${user.phone}`;
   memberNationality.textContent = `Nationality: ${user.nationality}`;
