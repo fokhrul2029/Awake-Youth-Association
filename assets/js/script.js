@@ -91,8 +91,8 @@ async function openMemberModal(user_id) {
   const memberLiving = document.querySelector(".memberLiving");
   const socialInfo = document.querySelector("#socialInfo");
 
-  const phone = `<a href="tel:+88${user.phone}"><i class="bi bi-telephone-outbound-fill"></i></a>`;
-  const wp = `<a target="_blank" href="http://wa.me/+88${user.phone}"><i class="bi bi-whatsapp"></i></a>`;
+  const phone = `<a href="tel:${user.phone}"><i class="bi bi-telephone-outbound-fill"></i></a>`;
+  const wp = `<a target="_blank" href="http://wa.me/${user.phone}"><i class="bi bi-whatsapp"></i></a>`;
   const fb = `<a target="_blank" href="${user.fb_url}"><i class="bi bi-facebook"></i></a>`;
 
   memberImg.src = `assets/img/${user.image}`;
