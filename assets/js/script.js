@@ -89,6 +89,11 @@ async function openMemberModal(user_id) {
   const memberPhone = document.querySelector(".memberPhone");
   const memberNationality = document.querySelector(".memberNationality");
   const memberLiving = document.querySelector(".memberLiving");
+  const socialInfo = document.querySelector("#socialInfo");
+
+  const phone = `<a href="tel:+88${user.phone}"><i class="bi bi-telephone-outbound-fill"></i></a>`;
+  const wp = `<a target="_blank" href="http://wa.me/+88${user.phone}"><i class="bi bi-whatsapp"></i></a>`;
+  const fb = `<a target="_blank" href="${user.fb_url}"><i class="bi bi-facebook"></i></a>`;
 
   memberImg.src = `assets/img/${user.image}`;
   memberName.innerHTML = ` <span class="border-bottom border-info text-color">${user.name}</span>`;
@@ -97,6 +102,11 @@ async function openMemberModal(user_id) {
   memberNationality.textContent = `Nationality: ${user.nationality}`;
   memberLiving.textContent = `Living: ${user.living}`;
 
+  socialInfo.innerHTML = ` ${phone}
+  ${user.whatsapp == true ? wp : ""}
+  ${user.fb_url == false ? "" : fb}
+  
+  `;
   // Display the modal and overlay
   document.getElementById("modal").style.display = "block";
 }

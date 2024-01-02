@@ -6,9 +6,10 @@
     "position": "Chirman",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
-    "birth-day": "",
+    "birth_day": "",
     "phone": "01789123456",
-    "fb-url": ""
+    "whatsapp": true,
+    "fb_url": false
   },
   {
     "user_id": 40003245,
@@ -17,9 +18,10 @@
     "position": "Mentor",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
-    "birth-day": "",
-    "phone": "01789123456",
-    "fb-url": ""
+    "birth_day": "",
+    "phone": "01764287838",
+    "whatsapp": true,
+    "fb_url": false
   },
   {
     "user_id": 18073313,
@@ -28,9 +30,10 @@
     "position": "General secretary",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
-    "birth-day": "",
+    "birth_day": "",
     "phone": "01789123456",
-    "fb-url": ""
+    "whatsapp": true,
+    "fb_url": false
   },
   {
     "user_id": 26326589,
@@ -39,9 +42,10 @@
     "position": "Organizing Secretary",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
-    "birth-day": "",
+    "birth_day": "",
     "phone": "01789123456",
-    "fb-url": ""
+    "whatsapp": true,
+    "fb_url": false
   },
   {
     "user_id": 48217866,
@@ -50,9 +54,10 @@
     "position": "Financial Secretary",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
-    "birth-day": "",
+    "birth_day": "",
     "phone": "01789123456",
-    "fb-url": ""
+    "whatsapp": true,
+    "fb_url": false
   },
   {
     "user_id": 38677965,
@@ -61,9 +66,10 @@
     "position": "Financial Secretary",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
-    "birth-day": "",
+    "birth_day": "",
     "phone": "01789123456",
-    "fb-url": ""
+    "whatsapp": true,
+    "fb_url": false
   },
   {
     "user_id": 52971459,
@@ -72,9 +78,10 @@
     "position": "Publicity Editor",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
-    "birth-day": "",
-    "phone": "01789123456",
-    "fb-url": ""
+    "birth_day": "",
+    "phone": "01742672425",
+    "whatsapp": true,
+    "fb_url": "https://web.facebook.com/ifokhrul.2029/"
   },
   {
     "user_id": 78526416,
@@ -83,9 +90,10 @@
     "position": "Assistant Publicity Editor",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
-    "birth-day": "",
+    "birth_day": "",
     "phone": "01789123456",
-    "fb-url": ""
+    "whatsapp": true,
+    "fb_url": false
   },
   {
     "user_id": 22002226,
@@ -94,9 +102,10 @@
     "position": "Religion Editor",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
-    "birth-day": "",
+    "birth_day": "",
     "phone": "01789123456",
-    "fb-url": ""
+    "whatsapp": true,
+    "fb_url": false
   },
   {
     "user_id": 57227664,
@@ -105,9 +114,10 @@
     "position": "Member",
     "nationality": "Bangladesh",
     "living": "Canada",
-    "birth-day": "",
+    "birth_day": "",
     "phone": "01789123456",
-    "fb-url": ""
+    "whatsapp": true,
+    "fb_url": false
   },
   {
     "user_id": 26470765,
@@ -116,9 +126,10 @@
     "position": "Member",
     "nationality": "Bangladesh",
     "living": "United Kungdom(UK)",
-    "birth-day": "",
+    "birth_day": "",
     "phone": "01789123456",
-    "fb-url": ""
+    "whatsapp": true,
+    "fb_url": false
   },
   {
     "user_id": 71092521,
@@ -127,9 +138,10 @@
     "position": "Member",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
-    "birth-day": "",
+    "birth_day": "",
     "phone": "01789123456",
-    "fb-url": ""
+    "whatsapp": true,
+    "fb_url": false
   },
   {
     "user_id": 59989381,
@@ -138,8 +150,9 @@
     "position": "Member",
     "nationality": "Bangladesh",
     "living": "Bangladesh",
-    "birth-day": "",
+    "birth_day": "",
     "phone": "01789123456",
-    "fb-url": ""
+    "whatsapp": true,
+    "fb_url": false
   }
 ]
