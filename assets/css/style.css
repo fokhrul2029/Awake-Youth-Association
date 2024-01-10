@@ -114,6 +114,11 @@ a{text-decoration: none ;}
 .about-section strong:hover {
   text-decoration: underline ;
 }
+
+.about-section video {
+  height: 450px;
+  width: auto ;
+}
 /* Team Section  */
 .team-section .card {
   margin: 10px 0px;
