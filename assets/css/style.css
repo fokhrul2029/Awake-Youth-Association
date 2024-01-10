@@ -104,17 +104,16 @@ a{text-decoration: none ;}
   font-size: 50px;
   line-height:100px ;
 }
-/* .hero-section span {
-  font-weight: 900;
-  text-transform: uppercase;
-  text-shadow: -2px -1px 4px black;
-  color: #008bd3;
-  font-size: 24px;
-  line-height: 52px;
-  border: 1px solid #008bd3;
-  padding: 0 10px;
-  border-radius: 4px;
-} */
+/* About Section */
+
+.about-section strong {
+  color: rgb(0, 139, 211) ;
+  font-weight: 500 ;
+  cursor: pointer;
+}
+.about-section strong:hover {
+  text-decoration: underline ;
+}
 /* Team Section  */
 .team-section .card {
   margin: 10px 0px;
