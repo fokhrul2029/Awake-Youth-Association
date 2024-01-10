@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
     <title>Awake-Youth-Association</title>
     <!-- bootstrap CSS abd Icons -->
     <link
@@ -64,19 +65,36 @@
       <!-- hero Section  -->
       <section id="home" class="hero-section py-5">
         <div class="container pt-5">
-          <h1 class="text-center pt-5">Awake Youth Association</h1>
-          <h1 class="text-center">জাগ্রত তরুন যুব সংঘ</h1>
-          <p class="text-center px-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-            tenetur quod, commodi numquam ullam voluptas deleniti asperiores
-            repellat nobis quis minus debitis blanditiis nihil voluptatem quo ad
-            maiores veritatis! Natus?
-          </p>
+          <div>
+            <h1 class="text-center pt-5 fs-1">Awake Youth Association</h1>
+            <h1 class="text-center">জাগ্রত তরুন যুব সংঘ</h1>
+          </div>
+          
         </div>
       </section>
       <!-- About Section  -->
       <section id="about" class="about-section py-5 text-center">
-        <div class="container">
+        <div class="container pt-5">
+          <div class="alert alert-warning mt-4" role="alert">
+            <h3
+              class="text-uppercase text-color pt-4 border-bottom mb-4 d-inline-block px-5"
+            >
+              An independent association
+            </h3>
+            <p class="text-center px-0 px-md-6 fs-5">
+              At Awake Youth Association, we believe in the boundless potential
+              of young minds and their ability to shape a brighter community.
+              Established with a vision to empower and inspire the youth, our
+              association is committed to fostering personal growth, community
+              engagement, and positive societal impact.
+            </p>
+            <a
+              class="text-info fs-5"
+              href="#"
+            >
+              Follow on Facebook
+            </a>
+          </div>
           <h1 class="text-center">About</h1>
           <h3>Lorem ipsum dolor, sit amet consectetur adipisicing.</h3>
           <p>
@@ -96,6 +114,9 @@
           <div id="membersInfo" class="row pt-5">
             <!-- Members Info -->
           </div>
+          <button id="getAllMembers" class="btn btn-color my-5 py-2 px-5">
+            See All Members
+          </button>
         </div>
       </section>
       <!-- User Modal  -->
@@ -109,9 +130,11 @@
                 <h1 class="modal-title fs-5">Members Details</h1>
                 <button
                   type="button"
-                  class="btn-close"
+                  class="btn text-light fw-bolder fs-5"
                   onclick="closeMemberModal()"
-                ></button>
+                >
+                  <i class="bi bi-x-lg"></i>
+                </button>
               </div>
               <div class="modal-body text-center">
                 <img class="memberImg" src="assets/img/fokhrul.png" alt="" />
