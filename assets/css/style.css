@@ -107,12 +107,10 @@ a {
   text-transform: uppercase;
 }
 .english-title {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 90px;
+  font-family: "Noto Sans", sans-serif; 
 }
 .bangla-title {
-  font-family: Tiro Bangla;
-  font-size: 50px;
+  font-family: Tiro Bangla; 
   font-weight: 400;
 }
 /* About Section */
