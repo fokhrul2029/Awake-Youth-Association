@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
-    <link rel="shortcut icon" href="assets/media/logo/favicon.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/media/logo/favicon.png"
+      type="image/x-icon"
+    />
     <title>Awake-Youth-Association</title>
+    <!-- AOS Animation CSS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- bootstrap CSS abd Icons -->
     <link
       rel="stylesheet"
@@ -67,15 +73,32 @@
       <section id="home" class="hero-section py-5">
         <div class="container pt-5">
           <div>
-            <h1 class="text-center pt-5 fs-1 english-title">Awake Youth Association</h1>
-            <h1 class="text-center pt-3 bangla-title">জাগ্রত তরুন যুব সংঘ</h1>
+            <h1
+              data-aos="zoom-in"
+              data-aos-duration="3000"
+              class="text-center pt-5 fs-1 english-title"
+            >
+              Awake Youth Association
+            </h1>
+            <h1
+              data-aos="zoom-in-up"
+              data-aos-duration="3000"
+              class="text-center pt-3 bangla-title"
+            >
+              জাগ্রত তরুন যুব সংঘ
+            </h1>
           </div>
         </div>
       </section>
       <!-- About Section  -->
       <section id="about" class="about-section py-5 text-center">
         <div class="container pt-5">
-          <div class="alert alert-warning mt-4" role="alert">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            class="alert alert-warning mt-4"
+            role="alert"
+          >
             <h3
               class="text-uppercase text-color pt-4 border-bottom mb-4 d-inline-block px-5"
             >
@@ -98,8 +121,12 @@
           </div>
           <div class="row pt-5 align-items-center pb-5">
             <div class="col-md-6 order-2 order-md-1">
-              <!-- <img src="assets/media/img/group -img.jpg" alt="" /> -->
-              <div id="carouselExampleIndicators" class="carousel slide">
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+                id="carouselExampleIndicators"
+                class="carousel slide"
+              >
                 <div class="carousel-indicators">
                   <button
                     type="button"
@@ -172,6 +199,8 @@
               </div>
             </div>
             <div
+              data-aos="fade-up"
+              data-aos-duration="2000"
               class="col-md-6 text-center pt-5 pt-md-0 order-1 order-md-2 text-md-start"
             >
               <h1 class="fs-3 text-color border-bottom">
@@ -192,7 +221,7 @@
                   >Abdullah Al Mamun,</strong
                 >
                 <strong onclick="openMemberModal(52971459)"
-                  >Fokhrul Islam,</strong
+                  >Md Fokhrul Islam,</strong
                 >
                 <strong onclick="openMemberModal(48217866)"
                   >Nayeem Ul alam</strong
@@ -213,7 +242,11 @@
             </div>
           </div>
           <div class="row pt-5 border-bottom pb-5 align-items-center">
-            <div class="col-md-6 text-center text-md-start">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              class="col-md-6 text-center text-md-start"
+            >
               <h1 class="fs-3 text-color border-bottom">
                 Exploring Our Work Through Video
               </h1>
@@ -235,7 +268,12 @@
               </a>
             </div>
             <div class="col-md-6 pt-4 pt-md-0">
-              <div id="carouselExample" class="carousel slide">
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+                id="carouselExample"
+                class="carousel slide"
+              >
                 <div class="carousel-inner bg-dark">
                   <div class="carousel-item active">
                     <video controls src="assets/media/video/flood-2022.mp4">
@@ -280,13 +318,18 @@
       <!-- Team members  -->
       <section id="team" class="team-section py-5 text-center">
         <div class="container">
-          <h1 class="pt-5">
+          <h1 data-aos="fade-right" data-aos-duration="2000" class="pt-5">
             <span class="px-5 border-bottom text-color">Team Members</span>
           </h1>
           <div id="membersInfo" class="row pt-5">
             <!-- Members Info -->
           </div>
-          <button id="getAllMembers" class="btn btn-color my-5 py-2 px-5">
+          <button
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            id="getAllMembers"
+            class="btn btn-color my-5 py-2 px-5"
+          >
             See All Members
           </button>
         </div>
@@ -327,19 +370,21 @@
           </div>
         </div>
       </div>
-      <!-- Footer  -->
-      <footer class="text-center py-2 border-top">
-        <p class="pt-3 fs-5">
-          All Reserved &copy;
-          <a
-            class="text-color"
-            target="_blank"
-            href="https://web.facebook.com/Awake.Youth.Association"
-            >Awake Youth Association</a
-          >
-        </p>
-      </footer>
     </main>
+    <!-- Footer  -->
+    <footer class="text-center py-2 border-top">
+      <p class="pt-3 fs-5">
+        All Reserved &copy;
+        <a
+          class="text-color"
+          target="_blank"
+          href="https://web.facebook.com/Awake.Youth.Association"
+          >Awake Youth Association</a
+        >
+      </p>
+    </footer>
+    <!-- AOS Animation Js  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Bootstrap JS -->
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS  -->
