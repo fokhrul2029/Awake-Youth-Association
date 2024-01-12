@@ -32,7 +32,7 @@ fetch(jsonFile)
         const userHtml = `
           <div 
           data-aos="zoom-in"
-          data-aos-duration="2000" 
+          data-aos-duration="1500" 
           class="col-xl-3 col-md-4 col-sm-6">
             <div class="card">
               <input type="hidden" id="${user.user_id}">
@@ -55,7 +55,7 @@ fetch(jsonFile)
       const userHtml = `
         <div 
         data-aos="zoom-in"
-        data-aos-duration="2000" 
+        data-aos-duration="1500" 
         class="col-xl-3 col-md-4 col-sm-6">
           <div class="card">
             <input type="hidden" id="${user.user_id}">
