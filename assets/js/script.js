@@ -31,7 +31,7 @@ fetch(jsonFile)
             <div class="card">
               <input type="hidden" id="${user.user_id}">
               <div class="img">
-                <img src="assets/img/${user.image}" class="card-img-top" alt="${user.name}" />
+                <img src="assets/media/members/${user.image}" class="card-img-top" alt="${user.name}" />
               </div>
               <div class="card-body">
                 <h5 class="card-title">${user.name}</h5>
@@ -51,7 +51,7 @@ fetch(jsonFile)
           <div class="card">
             <input type="hidden" id="${user.user_id}">
             <div class="img">
-              <img src="assets/img/${user.image}" class="card-img-top" alt="${user.name}" />
+              <img src="assets/media/members/${user.image}" class="card-img-top" alt="${user.name}" />
             </div>
             <div class="card-body">
               <h5 class="card-title">${user.name}</h5>
@@ -115,7 +115,7 @@ async function openMemberModal(user_id) {
   const fb = `
       <a target="_blank" href="${user.fb_url}"><i class="bi bi-facebook"></i></a>`;
 
-  memberImg.src = `assets/img/${user.image}`;
+  memberImg.src = `assets/media/members/${user.image}`;
   memberName.innerHTML = ` <span class="border-bottom border-info text-color">${user.name}</span>`;
   memberPosition.innerHTML = `Position: ${user.position}`;
   memberPhone.textContent = `Phone: ${user.phone}`;

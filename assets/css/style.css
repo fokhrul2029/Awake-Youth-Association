@@ -83,7 +83,7 @@ a{text-decoration: none ;}
 .hero-section {
   height: 100vh;
   background-image: linear-gradient(196deg, #0000006b, #000000bf),
-    url(../img/village_image.jpg);
+    url(../media/img/village_image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
