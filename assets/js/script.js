@@ -30,10 +30,7 @@ fetch(jsonFile)
       // Loop through the array of limited members (now all members)
       limitedMembers.forEach((user) => {
         const userHtml = `
-          <div 
-          data-aos="zoom-in"
-          data-aos-duration="1500" 
-          class="col-xl-3 col-md-4 col-sm-6">
+          <div class="col-xl-3 col-md-4 col-sm-6">
             <div class="card">
               <input type="hidden" id="${user.user_id}">
               <div class="img">
@@ -53,10 +50,7 @@ fetch(jsonFile)
     // Loop through the array of limited members initially
     limitedMembers.forEach((user) => {
       const userHtml = `
-        <div 
-        data-aos="zoom-in"
-        data-aos-duration="1500" 
-        class="col-xl-3 col-md-4 col-sm-6">
+        <div class="col-xl-3 col-md-4 col-sm-6">
           <div class="card">
             <input type="hidden" id="${user.user_id}">
             <div class="img">
